@@ -13,6 +13,6 @@ Currently only supported on Linux, but MacOS and Windows support is planned for 
 ## Inputs
 | Name | Required | Possible values | Description |
 |:-----|:--------:|:----------------|:------------|
-| `php-version` | YES | Any version available in [`CosmicMC-PMMP/PHP-Binaries`](https://github.com/CosmicMC-PMMP/PHP-Binaries) (currently `8.1` through `8.5`) | PHP version, must be a full `major.minor.patch` |
+| `php-version` | YES | Any version available in [`CosmicMC-PMMP/PHP-Binaries`](https://github.com/CosmicMC-PMMP/PHP-Binaries) (currently `8.1` through `8.5`) | PHP version as `major.minor` (e.g. `8.4`), matching the `pmN-php-X.Y-latest` release tags published by PHP-Binaries |
 | `install-path` | YES | Folder path | Path to install the binary into (e.g. `./bin`) |
 | `pm-version-major` | NO | `5` | Major version of [CosmicMC-PMMP](https://github.com/CosmicMC-PMMP/PocketMine-MP) to build extensions for |
