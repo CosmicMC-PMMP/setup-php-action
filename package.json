@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/axolotl-pm/setup-php-action.git"
+    "url": "git+https://github.com/CosmicMC-PMMP/setup-php-action.git"
   },
   "keywords": [
     "actions",
     "node",
     "setup"
   ],
-  "author": "axolotl-pm",
+  "author": "CosmicMC-PMMP",
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.6.0",

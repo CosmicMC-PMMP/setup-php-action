@@ -1,16 +1,16 @@
-name: 'Setup PHP for Axolotl-PM'
-description: 'Install PHP and Composer for Axolotl-PM and related projects'
-author: 'axolotl-pm'
+name: 'Setup PHP for CosmicMC-PMMP'
+description: 'Install PHP and Composer for CosmicMC-PMMP and related projects'
+author: 'CosmicMC-PMMP'
 inputs:
   php-version:
     required: true
-    description: 'PHP version to install, e.g. "8.1" - see all available at https://github.com/axolotl-pm/PHP-Binaries/releases?q=latest'
+    description: 'PHP version to install, e.g. "8.1" - see all available at https://github.com/CosmicMC-PMMP/PHP-Binaries/releases?q=latest'
   install-path:
     required: true
     description: 'Path to install the binary to'
   pm-version-major:
     required: false
-    description: 'Major version of Axolotl-PM to install PHP for, e.g. "5"'
+    description: 'Major version of CosmicMC-PMMP to install PHP for, e.g. "5"'
     default: 5
 
 runs:
